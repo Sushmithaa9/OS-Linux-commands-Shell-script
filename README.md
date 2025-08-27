@@ -565,12 +565,31 @@ tar -xvf backup.tar
 
 
 gzip backup.tar
+## OUTPUT
+
+<img width="297" height="53" alt="Screenshot 2025-08-11 195120" src="https://github.com/user-attachments/assets/ea962dcd-799c-410e-8be4-3f16008f7d01" />
+
+
+
+
+
+
 
 ls .gz
 ## OUTPUT
+
+<img width="455" height="75" alt="Screenshot 2025-08-11 195134" src="https://github.com/user-attachments/assets/bd9db73f-f1b8-4375-a6d9-128910b90e20" />
+
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+
+<img width="589" height="152" alt="Screenshot 2025-08-11 195247" src="https://github.com/user-attachments/assets/29ccbd78-e4fc-4153-8da2-4b2eeffd2a09" />
+
+
+
 
  
 # Shell Script
@@ -581,6 +600,11 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+
+<img width="581" height="302" alt="Screenshot 2025-08-11 195710" src="https://github.com/user-attachments/assets/fa456597-0d50-438c-9a7a-7fdc65019b13" />
+
+
+
 
  
 cat << stop > herecheck.txt
@@ -593,6 +617,11 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
+<img width="414" height="279" alt="Screenshot 2025-08-11 195853" src="https://github.com/user-attachments/assets/bd1da3ee-bb46-46d0-84af-5ae954259d05" />
+
+
+
 
 
 cat < scriptest.sh 
@@ -632,14 +661,28 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+
+
+<img width="443" height="318" alt="Screenshot 2025-08-11 201937" src="https://github.com/user-attachments/assets/28f9a947-7ded-4d83-98a9-5422666c47ab" />
+
+
+
  
 ls file1
 ## OUTPUT
 
+
+<img width="477" height="76" alt="Screenshot 2025-08-11 202133" src="https://github.com/user-attachments/assets/abd5789c-aeb1-40db-a11e-9be718a5ace3" />
+
+
+
+
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
+
+
+<img width="450" height="79" alt="Screenshot 2025-08-11 201955" src="https://github.com/user-attachments/assets/ff555755-f588-4446-b091-fe03b91c5477" />
+
  
 echo $?
 ## OUTPUT 
@@ -649,6 +692,8 @@ abcd
 echo $?
  ## OUTPUT
 
+
+<img width="343" height="77" alt="image" src="https://github.com/user-attachments/assets/3c3717f3-bba1-4cda-82b5-7a9dd45211cb" />
 
  
 # mis-using string comparisons
