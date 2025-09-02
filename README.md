@@ -1242,11 +1242,10 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
  ./funcex.sh 
-
- 
  ./funcex.sh 1 2
+ ## OUTPUT
+<img width="405" height="200" alt="image" src="https://github.com/user-attachments/assets/d789acd9-996a-42ea-9106-a11ccfc8cd76" />
 
  
 cat argshift.sh
@@ -1258,10 +1257,12 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
+
+ <img width="337" height="181" alt="image" src="https://github.com/user-attachments/assets/09deacc7-4e25-403f-a5f4-91ab0654b588" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1276,8 +1277,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+<img width="424" height="175" alt="image" src="https://github.com/user-attachments/assets/34f240b2-699c-4698-8b75-0043a4784c2a" />
+
  
 cat argshift.sh
 ```bash
@@ -1291,7 +1295,10 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
+
  
+ <img width="441" height="446" alt="image" src="https://github.com/user-attachments/assets/1819fcb4-34fb-45dc-a40f-f4d0333eda4f" />
+
  
 cat > nc.awk
 ```bash
@@ -1322,7 +1329,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+
+ <img width="304" height="383" alt="image" src="https://github.com/user-attachments/assets/8356c826-87d3-452e-afac-9d8d6b97f221" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1349,6 +1358,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="348" height="299" alt="image" src="https://github.com/user-attachments/assets/876f1062-bfbb-462b-9979-d9dbd8be26b4" />
 
 
 # RESULT:
